@@ -1,0 +1,382 @@
+body{
+    background-color:#f4f4f4;
+}
+.main_style{
+    height: 2.5rem;
+    background:linear-gradient(45deg,#232526,#414345);
+    display: flex;
+}
+
+
+.download_app{
+    border: 1px solid #fff;
+    margin: .7rem .5rem 0 0;
+    padding: .5rem;
+    border-radius: 1.6rem;
+    color: #fff;
+}
+.user_menu{
+    margin: 0 0 0 .8rem;
+}
+.extend{
+    font-size: 2rem;
+    margin: 0 .5rem 0 1rem;
+  
+}
+
+.main_content{
+    height: 35.6rem;
+    overflow: hidden;
+}
+.MuiBottomNavigationAction-root-153.MuiBottomNavigationAction-selected-154{
+    color: rgb(221, 221, 221) !important;
+}
+
+
+
+/* 登录 */
+.login_main{
+    width: 20rem;
+    margin: auto;
+    text-align: center;
+    padding-top: 10rem;
+}
+.go_reg{
+    margin-top: 2rem;
+    text-align: right;
+}
+.login_btn{
+    margin-top: 2rem;
+}
+.login_title{
+    font-size: 1.4rem;
+    color: rgb(75, 50, 14);
+  vertical-align: -.2rem;
+}
+
+/* 注册 */
+.reg_main{
+    width: 15rem;
+    margin: auto;
+    text-align: center;
+}
+.goback{
+    margin-bottom: 1.8rem;
+    text-align: left;
+}
+.reg_title{
+    font-size: 1.4rem;
+    color: rgb(75, 50, 14);
+  vertical-align: -.2rem;
+}
+
+
+.banner img{
+    width: 20rem;
+}
+.music_list_head{
+    margin-top: 1.1rem;
+    margin-left: .8rem;
+}
+.shu{
+    display: inline-block;
+    width: .2rem;
+    height: 1rem;
+    background-color: green;
+    margin-right: .9rem;
+}
+.music_list_text{
+    font-size: 1rem;
+    vertical-align: .05rem;
+    color: rgb(129, 82, 82);
+}
+.song_sheet img{
+    width: 8.5rem;
+}
+.song_sheet{
+   padding: 1rem .5rem 0 .5rem;
+   display: flex;
+   flex-flow: row wrap;
+   height: 21rem;
+   overflow: auto;
+   justify-content: space-between;
+   align-content: space-between;
+}
+.imgshow{
+    width: 8.5rem;
+    padding-bottom: .5rem;
+    background-color: #fff;
+    margin-top: .6rem;
+}
+.showtitle{
+    width: 8rem;
+    padding: .4rem 0 0 .4rem;
+    font-size: .9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: normal;
+}
+.showUname{
+    padding: 0 .4rem 0 .4rem;
+    font-size: .7rem;
+}
+.close{
+    display: none;
+}
+
+.list_title{
+    font-size: 1.2rem;
+    vertical-align: -.05rem;
+    color: #e4dede;
+}
+.head_style{
+    background-color: #003f34;
+}
+
+
+.img_main>img{
+    width: 8rem;
+}
+.top_Style{
+    padding: 1rem 1rem;
+    background:linear-gradient(45deg,#0F2027,#203A43,#2c5364);
+    display: flex;
+    justify-content: space-between;
+
+}
+.music_title{
+    width: 12rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: normal;
+    color: rgb(230, 222, 222);
+}
+.user_head{
+  margin-top: 1.5rem;
+}
+.user_head>img{
+    width: 2rem;
+    height:2rem;
+    border-radius: 50%;
+}
+.user_head>span{
+    display: inline-block;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    vertical-align: -.1rem
+}
+.extends{
+    background:linear-gradient(45deg,#0F2027,#203A43,#2c5364);
+}
+.music_show{
+    display: flex;
+    padding: .5rem;
+    align-items: center;
+    border-bottom: .06rem solid rgb(230, 224, 224);
+}
+.music_showS{
+    display: flex;
+    padding: .5rem;
+    align-items: center;
+    border-bottom: .06rem solid rgba(219, 219, 219, 0.795);
+    opacity: 0.8;
+    background: #00000075;
+}
+.xu{
+    font-size: 1.2rem;
+    color: rgb(202, 192, 192);
+}
+.music_info{
+    margin-left: 1rem;
+}
+.music_info>p:first-child{
+    font-size: 1.2rem;
+}
+.music_info>p:last-child{
+    font-size:.8rem;
+    color: #b3b8b7;
+}
+.show_more{
+    flex-grow: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.show_more>p{
+   font-size: 1.6rem;
+   margin-left: .5rem;
+   color: rgb(134, 128, 128);
+}
+.play_main{
+    width: 100%;
+    height: 41.7rem;;
+    background-color: #003f34;
+}
+.head_play{
+    display: flex;
+}
+.list_title{
+    width: 13.5rem;
+    margin-top: .8rem;
+    text-align: center;
+}
+.singger{
+    margin-top: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: normal;
+}
+.play_img{
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    /* background-color: #ccc4c4; */
+}
+.play_img>img{
+    width: 20rem;
+    border-radius: 50%;
+    
+}
+@keyframes rotation{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+    }
+    .Rotation{
+    transform: rotate(360deg);
+    animation: rotation 20s linear infinite;
+    -moz-animation: rotation 20s linear infinite;
+    animation: rotation 20s linear infinite;
+    -o-animation: rotation 20s linear infinite;
+    }
+
+    .play_btn{
+        font-size: 5rem;
+        color: #33ab9f
+    }
+    .pause {
+        animation-play-state: paused;
+      }
+    .running{
+        animation-play-state: running;
+      }
+
+
+/* 侧边栏 */
+.showUserHead{
+    display: flex;
+    padding: .1rem .5rem;
+    align-items: center;
+}
+.showUserHead img{
+    width: 2.5rem;
+    border-radius: 50%;
+}
+.showUserInfo{
+    margin-left: 1rem;
+}
+.showUserInfo>p:first-of-type{
+    font-size: 1.5rem;
+    color: #009688;
+}
+.showUserInfo>p:nth-of-type(2){
+    color: #14a37f;
+}
+
+.draw_list{
+    padding: .2rem .8rem;
+}
+.draw_list>p:first-of-type{
+   font-size: .8rem;
+}
+
+.side_text{
+color:red;
+}
+
+
+/* 我的 */
+.my_head{
+    background-color: rgba(31, 31, 31, 0.884);
+    box-shadow: .08rem .3rem .6rem rgb(85, 63, 63);
+    height: 2rem;
+}
+.MuiSvgIcon-root-10{
+
+    color:rgb(202, 198, 198);
+}
+.search_icon{
+
+    color: #b2dfdb;
+    margin: .1rem 0 0 1rem;
+    background-color:#26a69a;
+    padding: .1rem;
+    color: rgb(255, 235, 235);
+    border-radius: 50%;
+}
+.search_show{
+    width: 16rem;
+    position: absolute;
+    background-color: rgba(38, 166, 154,0.8);
+    left: 3.5rem;
+    top: 2.5rem;
+}
+.refMusicStyle{
+    color: #e4dede;
+    padding: .8rem;
+    border-bottom: .1rem solid #e4dede;
+}
+.hot_title{
+    padding: .8rem;
+    color: #003f34;
+    font-size: .8rem;
+}
+.hot_main{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+/* 个人页面 */
+.my_bg{
+    width: 100%;
+    height: 10rem;
+    background: linear-gradient(45deg,#536976,#292E49);
+    overflow: hidden;
+}
+.person_head{
+    width: 6rem;
+    height: 5rem;
+    margin:1.5rem auto 0 auto;
+}
+.person_head img{
+    width: 4rem;
+    border-radius: 50%;
+}
+.person_name{
+    width: 10rem;
+    margin: auto;
+    font-size: 1.2rem;
+    color: #caf3ef;
+    text-align: center;
+}
+.person_email{
+    width: 10rem;
+    margin: auto;
+    font-size: .9rem;
+    color: #9c9e9e;
+    text-align: center;
+
+}
+.person_login{
+    width: 5rem;
+    text-align: center;
+    margin: auto;
+    padding: .4rem 1rem;
+    border: .08rem solid rgb(156, 156, 156);
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    color: rgb(201, 201, 201);
+}
